@@ -1,0 +1,63 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "MessagesComponent"
+      }
+    ],
+    "6": "messages.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "MessagesComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-messages",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "MessagesComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/pages/messages/messages.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div>\r\n    הודעות לחברות\r\n</div>",
+        "templateUrl": "asset:MOCH.WEB/lib/pages/messages/messages.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/pages/messages/messages.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

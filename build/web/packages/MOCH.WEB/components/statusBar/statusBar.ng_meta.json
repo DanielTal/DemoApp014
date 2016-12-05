@@ -1,0 +1,63 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "StatusBarComponent"
+      }
+    ],
+    "6": "statusBar.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "StatusBarComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-status-bar",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "StatusBarComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/components/statusBar/statusBar.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div class=\"alert alert-info\" role=\"alert\">הודעות מערכת</div>\r\n",
+        "templateUrl": "asset:MOCH.WEB/lib/components/statusBar/statusBar.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/components/statusBar/statusBar.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,57 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ReportsComponent"
+      }
+    ],
+    "6": "reports.dart"
+  },
+  "type": {
+    "ReportsComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-reports",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "ReportsComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/pages/reports/reports.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div>\r\n    דוחות\r\n</div>",
+        "templateUrl": "asset:MOCH.WEB/lib/pages/reports/reports.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/pages/reports/reports.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

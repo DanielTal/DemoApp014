@@ -1,0 +1,63 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DevsComponent"
+      }
+    ],
+    "6": "devs.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "DevsComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-devs",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DevsComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/pages/devs/devs.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div>\r\n    מפתחים\r\n</div>",
+        "templateUrl": "asset:MOCH.WEB/lib/pages/devs/devs.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/pages/devs/devs.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

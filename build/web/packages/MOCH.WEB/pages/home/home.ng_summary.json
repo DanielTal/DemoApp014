@@ -1,0 +1,57 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HomeComponent"
+      }
+    ],
+    "6": "home.dart"
+  },
+  "type": {
+    "HomeComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-home",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "HomeComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/pages/home/home.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div>\r\n    דף הבית\r\n</div>",
+        "templateUrl": "asset:MOCH.WEB/lib/pages/home/home.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/pages/home/home.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

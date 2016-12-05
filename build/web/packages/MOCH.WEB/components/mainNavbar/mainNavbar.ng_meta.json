@@ -1,0 +1,76 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "MainNavbarComponent",
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "mainNavbar.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "MainNavbarComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "mochweb-main-navbar",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "MainNavbarComponent",
+        "moduleUrl": "asset:MOCH.WEB/lib/components/mainNavbar/mainNavbar.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<nav class=\"navbar navbar-default\">\r\n    <span>&nbsp;</span>\r\n    <a class=\"btn btn-primary navbar-btn\" [routerLink]=\"['Home']\">דף הבית</a>\r\n    <a class=\"btn btn-primary navbar-btn\" [routerLink]=\"['FindAssistanceFiles']\">איתור תיקים</a>\r\n    <a class=\"btn btn-primary navbar-btn\" [routerLink]=\"['Reports']\">דוחות</a>\r\n    <a class=\"btn btn-primary navbar-btn\" [routerLink]=\"['Messages']\">הודעות לחברות</a>\r\n    <a class=\"btn btn-primary navbar-btn\" [routerLink]=\"['DEVS']\">מפתחים</a>\r\n</nav>    \r\n",
+        "templateUrl": "asset:MOCH.WEB/lib/components/mainNavbar/mainNavbar.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:MOCH.WEB/lib/components/mainNavbar/mainNavbar.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

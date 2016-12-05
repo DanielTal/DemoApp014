@@ -1,0 +1,7 @@
+body {
+  margin: 5px;
+  direction: rtl;
+  background-color: #b0d0f0;
+  color: #000080;
+  overflow-y: scroll;
+}
