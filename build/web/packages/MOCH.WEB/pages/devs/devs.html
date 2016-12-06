@@ -1,3 +1,27 @@
-<div>
+<div style="text-align:center;outline:#000000 1px solid">
     מפתחים
 </div>
+<table dir="rtl" style="width:100%">
+    <tr>
+        <td style="width:25%;text-align:center;outline:#000000 1px solid">.</td>
+        <td style="width:75%;text-align:center;outline:#000000 1px solid">.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">לחצן</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+             Count: {{count}} &nbsp;&nbsp;&nbsp;
+            <material-button [disabled]="!allowed" (trigger)="increment()" raised class="blue">Increase count</material-button>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Glyphs</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+            <glyph icon="favorite"></glyph>
+            <glyph icon="business"></glyph>
+            <glyph icon="thumb_up"></glyph>
+            <glyph icon="bluetooth_connected"></glyph>
+            <glyph icon="insert_photo"></glyph>
+            <glyph icon="more_horiz"></glyph>            
+        </td>
+    </tr>
+</table>    
