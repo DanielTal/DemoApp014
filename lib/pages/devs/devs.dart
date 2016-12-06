@@ -22,6 +22,7 @@ class DevsComponent
   static final String _Style1Visible = 'visibility:visible';
   String Radio1 = '';
   int tabIndex = 0;
+  bool showBasicDialog = false;
 
   void increment()
   {

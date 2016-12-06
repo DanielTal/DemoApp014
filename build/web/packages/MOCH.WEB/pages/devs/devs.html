@@ -100,4 +100,33 @@
             <span>{{tabIndex}}</span>       
         </td>
     </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Dialogs</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+        <material-button (trigger)="showBasicDialog = true"
+                 [disabled]="showBasicDialog"
+                 raised
+                 class="blue">Open Basic</material-button>            
+            <modal [visible]="showBasicDialog">
+            <material-dialog class="basic-dialog">
+                <h3 header>Dialog title</h3>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum lacus est, eu
+                sagittis ligula fermentum vel. Maecenas facilisis leo dolor, quis rhoncus sem imperdiet vel.
+                Vestibulum vitae tristique orci. Ut lobortis varius convallis. Ut nec egestas diam. Nunc in
+                tincidunt erat. Vivamus porttitor molestie ligula, vitae dictum elit ornare quis. Donec
+                imperdiet venenatis justo ac viverra.
+                </p>
+                <div footer>
+                <material-button autoFocus
+                                clear-size
+                                (trigger)="showBasicDialog = false"
+                                class="white">
+                    Close
+                </material-button>
+                </div>
+            </material-dialog>
+            </modal>            
+        </td>
+    </tr>
 </table>
