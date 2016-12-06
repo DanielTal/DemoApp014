@@ -63,4 +63,15 @@
             </material-expansionpanel-set>            
         </td>
     </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Radio buttons</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+            <material-radio-group [(ngModel)]="Radio1">
+                <material-radio value='111'>Option1</material-radio>
+                <material-radio value='222'>Option2</material-radio>
+                <material-radio value='333'>Option3</material-radio>
+            </material-radio-group>
+            <span>{{Radio1}}</span> 
+        </td>
+    </tr>
 </table>

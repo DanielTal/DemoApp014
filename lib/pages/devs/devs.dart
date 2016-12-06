@@ -20,7 +20,8 @@ class DevsComponent
   String Style1 = _Style1Hidden;
   static final String _Style1Hidden = 'visibility:hidden';
   static final String _Style1Visible = 'visibility:visible';
-
+  String Radio1 = '';
+  
   void increment()
   {
     count++;
