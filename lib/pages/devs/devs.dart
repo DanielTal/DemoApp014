@@ -15,6 +15,7 @@ class DevsComponent
   int count = 0;
   bool allowed = true;
   String Name = '';
+  bool Flag1 = false;
 
   void increment()
   {

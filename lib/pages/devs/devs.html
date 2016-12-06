@@ -32,4 +32,11 @@
             <material-button (trigger)="setName()" raised class="blue">Set name</material-button>
         </td>
     </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Check Box</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+            <span>{{Flag1}}</span>
+            <material-checkbox [(ngModel)]="Flag1" label="{{Name}}"></material-checkbox>
+        </td>
+    </tr>
 </table>
