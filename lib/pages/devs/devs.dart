@@ -21,7 +21,8 @@ class DevsComponent
   static final String _Style1Hidden = 'visibility:hidden';
   static final String _Style1Visible = 'visibility:visible';
   String Radio1 = '';
-  
+  int tabIndex = 0;
+
   void increment()
   {
     count++;
