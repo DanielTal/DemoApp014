@@ -16,6 +16,10 @@ class DevsComponent
   bool allowed = true;
   String Name = '';
   bool Flag1 = false;
+  String SpinnerActionLabel = 'Turn spinner on';
+  String Style1 = _Style1Hidden;
+  static final String _Style1Hidden = 'visibility:hidden';
+  static final String _Style1Visible = 'visibility:visible';
 
   void increment()
   {
@@ -25,5 +29,19 @@ class DevsComponent
   void setName()
   {
     Name = 'LOLZ'; 
+  }
+
+  void setSpinner()
+  {
+    if(Style1 == _Style1Hidden)
+    {
+      Style1 = _Style1Visible;
+      SpinnerActionLabel = 'Turn spinner off';
+    }
+    else
+    {
+      Style1 = _Style1Hidden;
+      SpinnerActionLabel = 'Turn spinner on';
+    }
   }
 }

@@ -39,4 +39,11 @@
             <material-checkbox [(ngModel)]="Flag1" label="{{Name}}"></material-checkbox>
         </td>
     </tr>
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Spinner</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+            <div dir="ltr" style="{{Style1}}"><material-spinner></material-spinner></div>
+            <material-button (trigger)="setSpinner()" raised class="blue">{{SpinnerActionLabel}}</material-button>
+        </td>
+    </tr>
 </table>
