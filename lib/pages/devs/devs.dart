@@ -14,8 +14,15 @@ class DevsComponent
 {
   int count = 0;
   bool allowed = true;
+  String Name = '';
+
   void increment()
   {
     count++;
+  }
+
+  void setName()
+  {
+    Name = 'LOLZ'; 
   }
 }

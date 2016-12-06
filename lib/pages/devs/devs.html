@@ -24,4 +24,12 @@
             <glyph icon="more_horiz"></glyph>            
         </td>
     </tr>
-</table>    
+    <tr>
+        <td style="text-align:center;outline:#000000 1px solid">Text input</td>
+        <td style="text-align:center;outline:#000000 1px solid">
+            <material-input [(ngModel)]="Name" floatingLabel label="שם פרטי"></material-input>
+            <material-input [(ngModel)]="Name" floatingLabel label="שם פרטי"></material-input>
+            <material-button (trigger)="setName()" raised class="blue">Set name</material-button>
+        </td>
+    </tr>
+</table>
